@@ -1,6 +1,6 @@
 # Pimoroni-Presto Crypto Display
 
-Simple example to show crypto prices on [Pimoroni-Presto](https://shop.pimoroni.com).
+Simple example to show crypto prices on [Pimoroni-Presto](https://shop.pimoroni.com). You can find the repository and firmware releases [here](https://github.com/pimoroni/presto).
 
 ## Prerequisite
 
