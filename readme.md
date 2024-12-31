@@ -43,6 +43,11 @@ $ .venv/bin/activate
 1. open `secrets.py` and add your values for **WIFI_SSID** and **WIFI_PASSWORD**.
 2. open `main.py` and change constants **TARGET_CURRENCY** and **CRYPTO**
 
+> **Note:** The free API _V1_ of [CoinCap](https://www.coincap.io) is used. Only 200 requests per minute are allowed.
+> 
+> This version return the prices in USD (_constant: **BASE_CURRENCY**_).
+> To convert the currency, the API of [Frankfurter](https://frankfurter.dev) is used.
+
 ## Upload and run
 
 Upload following directories and files to Pimoroni-Presto (_RP2350_) via `rshell`.
